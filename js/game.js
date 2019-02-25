@@ -198,7 +198,7 @@ class mainScene {
 new Phaser.Game({
     width: window.outerWidth, // Width of the game in pixels
     height: window.outerHeight - 180, // Height of the game in pixels
-    backgroundColor: '#3498db', // The background color (blue)
+    backgroundColor: '#CCCCCC', // The background color (grey)
     scene: mainScene, // The name of the scene we created
     physics: { default: 'arcade' }, // The physics engine to use
     parent: 'game', // Create the game inside the <div id="game"> 
